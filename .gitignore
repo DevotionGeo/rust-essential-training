@@ -1,0 +1,14 @@
+# ignore only files without an extension: 
+
+# first ignore everything
+*
+# then unignore projects' directories
+!**/**/ 
+# then unignore files with extension
+!**/*.*
+
+# ignore target folders in all the projects
+**/target/
+
+# ignore .DS_Store files
+.DS_Store
